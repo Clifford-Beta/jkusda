@@ -1,4 +1,5 @@
-
+<!-- load header -->
+<?php $this->load->view('templates/header'); ?>
 
 <!-- === BEGIN CONTENT === -->
                     <div id="content">
@@ -111,40 +112,40 @@ Jomo Kenyatta University Seventh Day Adventist Church is a warm Christian fellow
                                       </div>
                                       <div class="col-md-8 animate fadeIn">
                                           <h3 id="tahoma" style="margin-bottom:10px;">What's Happening</h3>
-                                          <div class="col-md-4 col-sm-4 person-details margin-bottom-30">
+                                          <div class="col-md-4 col-sm-4 person-details margin-bottom-30" id="1">
                                               <figure>
 
                                                   <figcaption>
-                                                      <h4 id="tahoma" class="margin-bottom-10">January
-                                                          <h5>- AMO Marathon</h5>
+                                                      <h4 id="tahoma" class="margin-bottom-10 ">Wednesday
+                                                          <h5 >- AMO Marathon</h5>
                                                       </h4>
-                                                      <span>Description</span>
+                                                      <span id="wedd">Description</span>
                                                   </figcaption>
 
                                               </figure>
                                           </div>
                                           <!-- //Portfolio Item// -->
                                           <!-- Person Details -->
-                                          <div class="col-md-4 col-sm-4 person-details margin-bottom-30">
+                                          <div class="col-md-4 col-sm-4 person-details margin-bottom-30" id="2">
                                               <figure>
 
                                                   <figcaption>
-                                                      <h4 id="tahoma" class="margin-bottom-10">February
-                                                          <h5>- ALO Cookery</h5>
+                                                      <h4 id="tahoma" class="margin-bottom-10 ">Friday
+                                                          <h5 id="fri">- ALO Cookery</h5>
                                                       </h4>
-                                                      <span>Description</span>
+                                                      <span id="fridd">Description</span>
                                                   </figcaption>
                                               </figure>
                                           </div>
                                           <!-- //Portfolio Item// -->
                                           <!-- Person Details -->
-                                          <div class="col-md-4 col-sm-4 person-details margin-bottom-30">
+                                          <div class="col-md-4 col-sm-4 person-details margin-bottom-30" id="3">
                                               <figure>
                                                   <figcaption>
-                                                      <h4 id="tahoma" class="margin-bottom-10">March
-                                                          <h5>- Finalists Sabbath</h5>
+                                                      <h4 id="tahoma" class="margin-bottom-10 ">Sabbath
+                                                          <h5 id="sat">- Finalists Sabbath</h5>
                                                       </h4>
-                                                      <span>Description</span>
+                                                      <span id="satd">Description</span>
                                                   </figcaption>
                                               </figure>
                                           </div>
@@ -156,4 +157,7 @@ Jomo Kenyatta University Seventh Day Adventist Church is a warm Christian fellow
                           </div>
                       </div>
 
-          <!-- === END CONTENT === -
+          <!-- END CONTENT  -->
+          <!-- load footer -->
+          <?php $this->load->view('templates/footer'); ?>
+          <?php $this->load->view('pages/phjs'); ?>
