@@ -1,0 +1,16 @@
+#kwanza {
+	height: 500px;
+	background-image: url("http://localhost/jkusda_registration/assets/img/jkusdahero1.jpg");
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#msg {
+
+	color: white;
+	font-weight: 500;
+	font-family: 'Sofia';
+	/*font: cursive;*/
+}
