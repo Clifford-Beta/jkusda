@@ -4,13 +4,13 @@
 	display: flex;
     justify-content: center;
     align-items: center;
-			font-weight: 500;
-				color: white;
+			
 
 }
 
 #msg {
-
+	font-weight: 500;
+	color: white;
 	font-family: 'Sofia';
 	/*font: cursive;*/
 }

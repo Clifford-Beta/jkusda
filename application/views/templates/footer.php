@@ -107,6 +107,7 @@
 <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.min.js');?>" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js');?>" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/bootbox.min.js');?>" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/moment.min.js');?>" type="text/javascript"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.0/fullcalendar.min.js'></script>
 <!-- Animate on Scroll-->
@@ -118,6 +119,9 @@
 <!-- Modernizr -->
 <script src="<?php echo base_url('assets/js/modernizr.custom.js');?>" type="text/javascript"></script>
 <!-- End JS -->
+<script type="text/javascript">
+
+</script>
 </body>
 </html>
 <!-- === END FOOTER === -->

@@ -75,6 +75,8 @@ eventRender: function (event, element) {
                     }
 
   })
+
+  // console.log(moment().format('W'));
 });
 
 	
