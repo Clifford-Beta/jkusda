@@ -116,10 +116,10 @@ Jomo Kenyatta University Seventh Day Adventist Church is a warm Christian fellow
                                               <figure>
 
                                                   <figcaption>
-                                                      <h4 id="tahoma" class="margin-bottom-10 ">Wednesday
-                                                          <h5 >- AMO Marathon</h5>
+                                                      <h4 id="tahoma" class="margin-bottom-10 ">
+                                                          <h5 ></h5>
                                                       </h4>
-                                                      <span id="wedd">Description</span>
+                                                      <span></span>
                                                   </figcaption>
 
                                               </figure>
@@ -130,10 +130,10 @@ Jomo Kenyatta University Seventh Day Adventist Church is a warm Christian fellow
                                               <figure>
 
                                                   <figcaption>
-                                                      <h4 id="tahoma" class="margin-bottom-10 ">Friday
-                                                          <h5 id="fri">- ALO Cookery</h5>
+                                                      <h4 id="tahoma" class="margin-bottom-10 ">
+                                                          <h5 id="fri"></h5>
                                                       </h4>
-                                                      <span id="fridd">Description</span>
+                                                      <span id="fridd"></span>
                                                   </figcaption>
                                               </figure>
                                           </div>
@@ -142,10 +142,10 @@ Jomo Kenyatta University Seventh Day Adventist Church is a warm Christian fellow
                                           <div class="col-md-4 col-sm-4 person-details margin-bottom-30" id="3">
                                               <figure>
                                                   <figcaption>
-                                                      <h4 id="tahoma" class="margin-bottom-10 ">Sabbath
-                                                          <h5 id="sat">- Finalists Sabbath</h5>
+                                                      <h4 id="tahoma" class="margin-bottom-10 ">
+                                                          <h5 id="sat"></h5>
                                                       </h4>
-                                                      <span id="satd">Description</span>
+                                                      <span id="satd"></span>
                                                   </figcaption>
                                               </figure>
                                           </div>
