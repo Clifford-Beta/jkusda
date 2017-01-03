@@ -4,13 +4,36 @@
 	display: flex;
     justify-content: center;
     align-items: center;
+			font-weight: 500;
+				color: white;
 
 }
 
 #msg {
 
-	color: white;
-	font-weight: 500;
 	font-family: 'Sofia';
 	/*font: cursive;*/
+}
+#tahoma{
+ font-family: 'Tahoma';
+
+}
+a.accordion-toggle  i{
+  width: 45px;
+  line-height: 44px;
+  font-size: 20px;
+  margin-top: -10px;
+  text-align: center;
+  margin-right: -15px;
+  background: #c9c9c9;
+}
+
+.panel-heading.active a.accordion-toggle i{
+  background: ;
+  color: #fff;
+}
+
+.panel-heading.active a.accordion-toggle.collapsed i{
+  background: #438390;
+  color: #fff;
 }
