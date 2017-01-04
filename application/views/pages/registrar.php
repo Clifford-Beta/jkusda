@@ -56,7 +56,7 @@
                                                 <button class="btn btn-primary" type="submit">Register</button>
                                             </div>
                                         </div>
-                                    </form> -->
+                                    </form> 
 
                                     </div>
                             </div>

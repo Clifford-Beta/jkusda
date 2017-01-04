@@ -4,22 +4,18 @@
  var today_date = moment().format('YYYY-MM-DD');
 if (typeof(Storage) !== "undefined") {
     // Code for localStorage/sessionStorage.
-    $.ajax({
-        type: "post",
-        url: 'http://52.89.75.169/event',
-        data: {},
-        dataType: 'jsonp',
-        contentType: 'application/json',
-        success: function (data) {
+    $.post("http://52.89.75.169/event",
+        {
+          
+         
+        },
+        function(data,status){
           if(data.status){
             // 
             sessionStorage.setItem("myEvents", JSON.stringify(data['message'])); 
           }
             // console.log(data, events)
-        }
 
-    }).fail(function (jqXHR) {
-        console.log("Failed");
     });
 } 
 
@@ -42,22 +38,20 @@ events: function (start, end, timezone, callback) {
     // console.log()
   callback(JSON.parse(sessionStorage.getItem("myEvents")));
 }else{
-  $.ajax({
-        type: "post",
-        url: 'http://52.89.75.169/event',
-        data: {},
-        dataType: 'jsonp',
-        contentType: 'application/json',
-        success: function (data) {
+   $.post("http://52.89.75.169/event",
+        {
+          
+         
+        },
+        function(data,status){
           if(data.status){
             callback(data['message']);
           }
             // console.log(data, events)
-        }
 
-    }).fail(function (jqXHR) {
-        console.log("Failed");
     });
+            
+        
 }
   
   

@@ -101,19 +101,21 @@
             </div>
         </div>
     </div>
-</div>
+<!-- </div> -->
+
 <!-- End Footer Menu -->
 <!-- JS -->
 <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.min.js');?>" type="text/javascript"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js');?>" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/bootbox.min.js');?>" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/moment.min.js');?>" type="text/javascript"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.0/fullcalendar.min.js'></script>
 <!-- Animate on Scroll-->
-<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.visible.js');?>" charset="utf-8"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.visible.js');?>" charset="utf-8"></script> -->
 <!-- Sticky Div -->
-<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.sticky.js');?>" charset="utf-8"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.sticky.js');?>" charset="utf-8"></script> -->
 <!-- Slimbox2-->
 <script type="text/javascript" src="<?php echo base_url('assets/js/slimbox2.js');?>" charset="utf-8"></script>
 <!-- Modernizr -->
