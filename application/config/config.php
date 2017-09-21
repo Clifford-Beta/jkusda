@@ -17,8 +17,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://jkusdachurch.org/';
-// $config['base_url'] = 'http://localhost/jkusda_registration';
+//$config['base_url'] = 'http://jkusdachurch.org/';
+ $config['base_url'] = '';
+// $config['base_url'] = 'http://localhost:9091/jkusda_site';
 
 
 /*
