@@ -50,7 +50,7 @@ public function membercheck()
 
 	  	$data=$this->input->post();
 			$data['api-key']='KA83T9iQm4oK0Jjcnid4X7AQOvxFmwl5';
-		$url= "http://api.jkusdachurch.org/memberget";
+		$url= "http://localhost/jkusda_api/memberget";
 		$ch = curl_init($url);
 # Setup request to send json via POST.
 	$payload = json_encode($data);
@@ -99,7 +99,7 @@ public function form_validate()
 		}else{
 			$data['type']=1;
 		}
-		$url= "http://api.jkusdachurch.org/register";
+		$url= "http://localhost/jkusda_api/register";
 		$ch = curl_init($url);
 # Setup request to send json via POST.
 	$payload = json_encode($data);
@@ -148,7 +148,7 @@ $data["hint"]="";
 			}else{
 				$data['type']=1;
 			}
-			$url= "http://api.jkusdachurch.org/edit_member";
+			$url= "http://localhost/jkusda_api/edit_member";
 			$ch = curl_init($url);
 	# Setup request to send json via POST.
 		$payload = json_encode($data);
